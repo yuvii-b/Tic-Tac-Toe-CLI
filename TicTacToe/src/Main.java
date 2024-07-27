@@ -25,10 +25,12 @@ public class Main {
                 gameOver = isGameWon(board, player);
                 if(gameOver){
                     System.out.println("Player " + player + " Won!!!");
-                }else{
+                }
+                else{
                     player = (player == 'X') ? 'O' : 'X';
                 }
-            }else{
+            }
+            else{
                 System.out.println("Invalid Move, Try Again!");
             }
         }
